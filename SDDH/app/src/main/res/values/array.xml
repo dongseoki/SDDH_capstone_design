@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_hour">
+        <item>알람 시간</item>
+        <item>알람 시간</item>
+        <item>1시간 전</item>
+        <item>2시간 전</item>
+        <item>3시간 뒤</item>
+        <item>4시간 뒤</item>
+    </string-array>
+    <string-array name="alarm_minute">
+        <item>알람 시간</item>
+        <item>10분 뒤</item>
+        <item>20분 뒤</item>
+        <item>30분 뒤</item>
+        <item>50분 뒤</item>
+
+    </string-array>
+    <string-array name="my_array">
+        <item>당일</item>
+        <item>1일 전</item>
+        <item>2일 전</item>
+        <item>3일 전</item>
+    </string-array>
+</resources>

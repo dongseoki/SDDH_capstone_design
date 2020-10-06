@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- 즐겨찾기 화면(선택2~3)-->
+    <TextView
+        android:layout_marginTop="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="즐겨찾기"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/nanum_square_round_l"
+        android:id="@+id/favorite_title">
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/favorite_recyclerview">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

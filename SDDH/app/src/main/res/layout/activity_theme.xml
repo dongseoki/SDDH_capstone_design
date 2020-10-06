@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--네비게이션 드로어에서 설정화면! -->
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="테마 선택"
+        android:textSize="30dp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/theme_group">
+
+        <RadioButton
+            android:id="@+id/r_system_mode"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="시스템 설정 모드"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:layout_marginLeft="-32dp"/>
+        <RadioButton
+            android:id="@+id/r_light_mode"
+            android:text="라이트 모드"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:layout_marginLeft="-32dp"/>
+        <RadioButton
+            android:id="@+id/r_dark_mode"
+            android:text="다크 모드"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:layout_marginLeft="-32dp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/apply_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="적용" />
+
+</LinearLayout>

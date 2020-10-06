@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp">
+    <!--setText시에 ex)책제목->책제목:~이런식으로 하면 될 듯 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/favorite_book_image">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="책제목 : "
+                android:textSize="15dp"
+                android:layout_marginBottom="5sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="저자 : "
+                android:textSize="15dp"
+                android:layout_marginBottom="5sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="출판사 : "
+                android:textSize="15dp"
+                android:layout_marginBottom="5sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="출판일 : "
+                android:textSize="15dp"
+                android:layout_marginBottom="5sp">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/favorite_book_title"
+                android:text="[책제목]"
+                android:textSize="15dp"
+                android:layout_marginBottom="5sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/favorite_author"
+                android:text="[저자]"
+                android:textSize="15dp"
+                android:layout_marginBottom="5sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/favorite_publishing_company"
+                android:text="[출판사]"
+                android:textSize="15dp"
+                android:layout_marginBottom="5sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/favorite_publishing_day"
+                android:text="[출판일]"
+                android:textSize="15dp"
+                android:layout_marginBottom="5sp">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

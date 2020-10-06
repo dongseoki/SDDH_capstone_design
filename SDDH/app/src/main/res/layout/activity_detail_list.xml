@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!--상세 정보에서 보여주는 대출 가능 리스트-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/school_image">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10sp">
+            <TextView
+                android:id="@+id/school_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="학교이름"
+                android:textSize="17sp"
+                android:textColor="@color/detail_info_textColor"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/distance"
+                android:text="거리: "
+                android:textSize="14sp"
+                android:textColor="@color/detail_info_textColor">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/borrow_count"
+                android:text="대출가능건수: "
+                android:textSize="14sp"
+                android:textColor="@color/detail_info_textColor">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/search_count"
+                android:text="검색건수: "
+                android:textSize="14sp"
+                android:textColor="@color/detail_info_textColor">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/borrow_able"
+        android:textColor="@color/borrow_available"
+        android:textAlignment="center"
+        android:text="대출가능"
+        android:layout_marginStart="10sp">
+    </TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dot_light_screen">
+    </View>
+</LinearLayout>

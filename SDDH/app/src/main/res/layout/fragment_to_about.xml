@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--서동 도협 듀토리얼 화면
+     프레그먼트 에서 도움말 클릭 시 화면-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="서동도협 홈페이지 링크"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/to_about_info"
+        android:textColor="#58D3F7">
+    </TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="서울동북부사립대학교도서관협의회(The University Library Council in the Northeast Seoul)\n
+는 서울동북부 지역에 위치한 사립대학교 도서관 상호간의 업무 협조 및 유대강화를 목적으로 1994년에 결성된 후, 현재까지 다양한 활동을 통하여 회원 상호 발전에 기여하고 있습니다."
+        android:textSize="19dp">
+    </TextView>
+    <TextView
+        android:fontFamily="@font/jalnan"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="회원교 (가나다순)\n\n
+광운대학교(Kwangwon University)\n\n
+국민대학교(Kookmin University)\n\n
+대진대학교(Daejin University)\n\n
+덕성여자대학교(Duksung  Women's University)\n\n
+동덕여자대학교(Dongduk Women's University)\n\n
+명지대학교(Myongji University)\n\n
+삼육대학교(Sahmyook University)\n\n
+상명대학교(Sangmyung University)\n\n
+서경대학교(Seokyeong University)\n\n
+서울여자대학교(Seoul Women's University)\n\n
+성신여자대학교(Sungshin University)\n\n
+한성대학교(Hansung University)"
+        android:textColor="#FAAC58">
+    </TextView>
+</LinearLayout>

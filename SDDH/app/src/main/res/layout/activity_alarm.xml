@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--fragment_settings 에서 알림 클릭시 화면
+    ~시간, ~분 전 이런 정보 입력-->
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"/>
+    <!--android:timePickerMode="spinner"/-->
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="알림"
+           android:textSize="25dp"
+           android:layout_marginLeft="30dp">
+       </TextView>
+       <Switch
+           android:id="@+id/alarm_switch"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp">
+       </Switch>
+        <Spinner
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="70dp"
+        android:layout_width="match_parent"
+        android:id="@+id/day_before"
+        android:layout_height="wrap_content">
+    </Spinner>
+   </LinearLayout>
+<Button
+    android:text="적용"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/setAlarmTime"/>
+</LinearLayout>

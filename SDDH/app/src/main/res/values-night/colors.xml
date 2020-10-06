@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="appbarColor">#484848</color>
+    <color name="appBackground">#242424</color>
+    <color name="textColor">#888888</color>
+    <!--책 상세정보 글씨 -->
+
+    <color name="detail_textColor">#FAFAFA</color>
+    <!--책 상세정보 리스트 컬러(activity_detail_list) -->
+    <color name="detail_info_textColor">#FAFAFA</color>
+    <!--activity_school_list 텍스트 컬러 -->
+    <color name="activity_school_textColor">#F2F2F2</color>
+    <!-->튜토리얼 용 color<-->
+    <color name="tutorial">#DAF7A6</color>
+    <!-- 선택되지 않은 점(선택 되지 않은 페이지 점) -->
+    <color name="dot_dark_screen">#151515</color>
+
+    <!-- 선택된 점(해당 페이지 일 때) -->
+    <color name="dot_light_screen">#8E8E8E</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen</item>
+    </array>
+</resources>

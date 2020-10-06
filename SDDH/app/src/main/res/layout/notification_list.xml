@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--네비게이션 드로어에서 알림 클릭시 화면
+     리사이클러뷰에 대한 리스트(Notifragment)-->
+    <!-- ex) 책 제목: hello!을 자바코드에서 설정하는 것이
+    좋다고 여김-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notification_book_title"
+        android:text="책 제목"
+        android:textSize="13sp">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="학교"
+                android:textSize="13sp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/notification_Univ_name">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="예상 반납일"
+                android:textSize="13sp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/notification_return_date">
+            </TextView>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/remove_btn"
+            android:text="삭제"
+            android:textSize="14sp"
+            tools:ignore="RtlHardcoded">
+        </Button>
+    </LinearLayout>
+</LinearLayout>
