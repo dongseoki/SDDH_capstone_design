@@ -24,6 +24,7 @@
    <li>&nbsp;Gson라이브러리<br>&nbsp;Gson(구글 Gson, Google Gson)은 JSON의 자바 오브젝트의 직렬화, 역직렬화를 해주는 오픈 소스 자바 라이브러리</li>
    <li>&nbsp;Volley라이브러리<br>&nbsp;Android 앱의 네트워킹을 더 쉽고, 무엇보다도 더 빠르게 하는 HTTP 라이브러리</li>
    <li>&nbsp;Glide라이브러리<br>&nbsp;url경로를 통한 안드로이드 이미지 로딩 라이브러리</li>
+   <li>&nbsp;'com.kyleduo.switchbutton:library:2.0.0'<br>알림ON/OFF 기능 스위치 커스텀</li>
 </ul>
 
 <h3>상세한 내용은 WIKI를 참고</h3>
